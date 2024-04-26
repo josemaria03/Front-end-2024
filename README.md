@@ -7,4 +7,4 @@ esto es el contenido del titulo uno
 
 1. punto uno
 2. punto 
-[la mochila](descarga.jpg)
+![la mochila](descarga.jpg)
