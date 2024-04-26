@@ -1,10 +1,12 @@
-# Titulo
-esto es el contenido del titulo uno
-## Titulo 2
+# Front end 2024
+ este repositorio voy subir las actividades de front
+ ## Jose Maria 
+ 1. tengo 20 
+ 2. vivo en concepcion
+ 3. soy hombre
+ 4. alto 
 
-### titilo 3
-**hola**
+ [mi github](https://github.com/josemaria03)
 
-1. punto uno
-2. punto 
-![la mochila](descarga.jpg)
+
+ 
