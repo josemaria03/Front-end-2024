@@ -4,7 +4,7 @@
 }
 
 .header {
-background-color: brown;
+background-color: rgb(234, 69, 69);
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -37,7 +37,7 @@ li:hover{
 
 
 .logo {
-    height: 50px; /* alto de la imagen*/
+    height: 60px; /* alto de la imagen*/
     width: auto; /* ancho de la imagen*/
     margin-left: 20px;
     border-radius: 100%;
@@ -46,5 +46,19 @@ li:hover{
 }
 
 .logo:hover {
-    transform: scale(1.4);
+    transform: scale(1.5);
 }
+
+{padding: 1;
+ margin: 1;
+
+}
+
+.section {
+background-color: rgb(173, 29, 67);
+display: flex;
+jutify-content: space-between;
+align-itms: center;
+width: 120%;
+height: 95px;
+ }
