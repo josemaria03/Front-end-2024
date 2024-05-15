@@ -49,16 +49,64 @@ li:hover{
     transform: scale(1.5);
 }
 
-{padding: 1;
- margin: 1;
+main {
+    background-color: blue;
+}
+
+
+.sobremi {
+    display: flex;
+    text-align: center;
+}
+
+.sobremiprimero {
+    margin: 100px;
+    border: solid black;
+}
+
+.sobremiprimero h1 {
+    margin-bottom: 15px;
+}
+
+.sobremisegundo {
+    margin: 100px;
+    border: solid black;
 
 }
 
-.section {
-background-color: rgb(173, 29, 67);
-display: flex;
-jutify-content: space-between;
-align-itms: center;
-width: 120%;
-height: 95px;
- }
+.sobremisegundo h2 {
+    margin-bottom: 15px;
+}
+
+.sobremisegundo img {
+    border-radius: 100%;
+    border: solid black;
+}
+
+.estudios img {
+    width: 250px;
+    border-radius: 100%;
+    margin-left: 20px;
+    margin-top: 30px;
+    border: solid black;
+    
+}
+
+.estudios {
+
+    display: flex;
+    align-items: center;
+    background-color: coral;
+}
+
+.claseestudios {
+    margin-left: 150px;
+}
+
+.claseestudios h2 {
+    margin-bottom: 30px
+}
+
+.claseestudios h2 {
+    margin-left: 100px;
+}
