@@ -4,7 +4,7 @@
 }
 
 .header {
-background-color: rgb(234, 69, 69);
+background-color: rgb(0, 0, 0);
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -25,14 +25,14 @@ li:hover{
 }
 .header .nav-links a {
     font-size: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     transition: all 0.3s;
 }
 
 
 .header .nav-links a:hover {
-    color: black;
+    color: rgb(255, 254, 251);
 }
 
 
@@ -50,17 +50,19 @@ li:hover{
 }
 
 main {
-    background-color: blue;
+    background-color: rgb(247, 6, 6);
 }
 
 
 .sobremi {
     display: flex;
     text-align: center;
+    align-items: center "5%";
+    
 }
 
 .sobremiprimero {
-    margin: 100px;
+    margin: 25px;
     border: solid black;
 }
 
@@ -69,17 +71,19 @@ main {
 }
 
 .sobremisegundo {
-    margin: 100px;
+    margin: 10px;
     border: solid black;
-
+    align-items: center;
 }
 
 .sobremisegundo h2 {
-    margin-bottom: 15px;
+     margin-bottom: 0,5%;
 }
 
 .sobremisegundo img {
-    border-radius: 100%;
+    border-radius: 200%;
+    border-radius: 30px;
+    margin-top: 01%;
     border: solid black;
 }
 
@@ -96,7 +100,7 @@ main {
 
     display: flex;
     align-items: center;
-    background-color: coral;
+    background-color: rgba(255, 0, 0, 0.299);
 }
 
 .claseestudios {
@@ -113,7 +117,7 @@ main {
 /* Seccion 3 Materias */
 
 #materiasId {
-    background-image: linear-gradient(to bottom, #427bfe 0%, #1b3039 100%); /* Degradado de azul a un tono más oscuro de azul */
+    background-image: linear-gradient(to bottom, #f60101 0%, #000000 100%); /* Degradado de rojo a un negro */
     padding: 20px;
 }
 
@@ -131,17 +135,17 @@ main {
 }
 
 #materiasId th, #materiasId td {
-    padding: 20px;
+    padding: 25px;
     text-align: center;
     font-size: 18px;
-    background-color: #427bfe;
-    color: #fff;
+    background-color: #f60606;
+    color: #121111;
     border-radius: 10px;
-    border: 2px solid #1b3039; /* Agregar bordes blancos */
+    border: 2px solid #000000; /* Agregar bordes negro */
 }
 
 #materiasId th {
-    background-color: #3a5eb9;
+    background-color: #d20000;
     color: #fff;
 }
 
@@ -168,7 +172,7 @@ main {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-image: linear-gradient(to bottom, #1b3039 0%, #427bfe 100%); /* Degradado de azul a un tono más oscuro de azul */
+    background-image: linear-gradient(to bottom, #f40400 0%, #ececec6a 100%); /* Degradado de rojo a un tono blanco */
 }
 
 .tarjetas-container {
@@ -181,14 +185,14 @@ main {
 }
 
 .titulo {
-    color: #ffffff;
-    font-size: 30px;
+    color: #000000;
+    font-size: 35px;
     margin-bottom: 10px;
 }
 
 .tarjeta {
     width: 300px;
-    background-color: #fff;
+    background-color: #000000;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-left: 50px;
