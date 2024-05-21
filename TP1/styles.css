@@ -57,7 +57,7 @@ main {
 .sobremi {
     display: flex;
     text-align: center;
-    align-items: center "5%";
+    align-items: center;
     
 }
 
@@ -82,9 +82,10 @@ main {
 
 .sobremisegundo img {
     border-radius: 200%;
-    border-radius: 30px;
+    border-radius: 50px;
     margin-top: 01%;
     border: solid black;
+    width: 200px;
 }
 
 .estudios img {
