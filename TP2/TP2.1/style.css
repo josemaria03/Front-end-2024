@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+.arreglo {
+    font-size: 18px;
+    color: #ffbcbc;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 8px;
+}
+
+.contenedorSuma, .contenedorPromedio, .contenedorMaxMin, .contenedorModificaciones, .contenedorPosicion {
+    margin-bottom: 30px;
+}
+
+h2, h3 {
+    font-size: 28px;
+    color: #fffefe;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.contenedorSuma p {
+    color: #ff0000;
+}
+
+.contenedorPromedio p {
+    color: #ff0000;
+}
+
+.contenedorMaxMin p {
+    color: #ff0000;
+}
+
+.contenedorModificaciones p {
+    color: #fb0303;
+}
+
+.contenedorPosicion p {
+    color: #f5f5f5;
+}
+
+.contenedorSuma, .contenedorPromedio, .contenedorMaxMin, .contenedorModificaciones, .contenedorPosicion {
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
