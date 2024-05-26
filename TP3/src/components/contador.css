@@ -1,0 +1,45 @@
+.contador-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.contador-box {
+  background-color: #f44336; 
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.contador-title {
+  font-size: 2rem;
+  color: #fff; 
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.contador-value {
+  font-size: 5rem;
+  color: #ff9800; 
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.contador-button {
+  background-color: #009688; 
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.contador-button:hover {
+  background-color: #00796b; 
+}

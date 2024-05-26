@@ -1,0 +1,47 @@
+.adivinar-container {
+  text-align: center;
+  margin-top: 200px;
+  margin-left: 650px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px; 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  display: inline-block; 
+}
+
+
+.adivinar-button {
+  padding: 12px 24px; 
+  font-size: 18px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 20px; 
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.adivinar-button:hover {
+  background-color: #218838; 
+}
+
+.adivinar-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #007bff;
+  border-radius: 20px;
+  margin-top: 20px;
+  transition: border-color 0.3s ease;
+}
+
+.adivinar-input:focus {
+  outline: none; 
+  border-color: #007bff; 
+}
+
+.adivinar-message {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #dc3545; 
+}

@@ -1,0 +1,57 @@
+.emojis-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.emoji {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.emoji-button {
+  background-color: #ff9800;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  margin-top: 30px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.emoji-button:hover {
+  background-color: #f57c00;
+}
+
+.voto-section {
+  margin-top: 40px;
+}
+
+.voto-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.voto-button {
+  background-color: #e91e63;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  margin: 0 15px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.voto-button:hover {
+  background-color: #c2185b;
+}
+
+.voto-button-selected {
+  background-color: #2196f3 !important;
+}
